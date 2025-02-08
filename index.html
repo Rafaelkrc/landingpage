@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" role="button" aria-label="Close menu">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#home">LOGO</a>
+            </h1>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#top3">Top 3</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#pricing">Price</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>January brings us Firefox 85</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolor, rem iure aliquam molestias mollitia aliquid ab odio hic quos perspiciatis natus reprehenderit temporibus nostrum esse. Voluptates facere eius repudiandae.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript-section1.svg" alt="Homem virado para esquerda segurando a logo de CSS, uma mulher após esse homem empurrando a logo do JavaScript, após a logo do Javascript uma outra mulher segurando a logo de HTML.">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>TOP 3 JOBS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iste illum voluptatem, ipsa veritatis numquam provident adipisci non quis dicta earum ex similique maxime dolore porro beatae at velit facilis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tenetur quos amet dolorum mollitia veritatis tempora animi ut sunt culpa. Quam molestiae perferendis nobis quaerat nihil impedit aliquam odit fuga!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto vero cum corporis corrupti alias quia repellendus deserunt qui repudiandae fugit dignissimos, expedita praesentium laudantium! Accusantium qui doloremque maxime recusandae provident?</p>
+        </div>
+    </section>
+
+    <section id="top3" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">top 3 jobs</h2>
+            <p class="grid-description">Uma breve descrição</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore maxime minus pariatur qui soluta tempora. Velit, sequi architecto obcaecati laboriosam modi, quae recusandae minus atque, non corrupti nobis totam aut.</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore maxime minus pariatur qui soluta tempora. Velit, sequi architecto obcaecati laboriosam modi, quae recusandae minus atque, non corrupti nobis totam aut.</p>
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore maxime minus pariatur qui soluta tempora. Velit, sequi architecto obcaecati laboriosam modi, quae recusandae minus atque, non corrupti nobis totam aut.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Uma breve descrição</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360" alt="Imagem randomica do picsum">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360?1=" alt="Imagem randomica do picsum">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360?2=" alt="Imagem randomica do picsum">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360?3=" alt="Imagem randomica do picsum">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360?4=" alt="Imagem randomica do picsum">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://picsum.photos/360/360?5=" alt="Imagem randomica do picsum">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">top 3 jobs</h2>
+            <p class="grid-description">Uma breve descrição</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore maxime minus pariatur qui soluta tempora. Velit, sequi architecto obcaecati laboriosam modi, quae recusandae minus atque, non corrupti nobis totam aut.</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore maxime minus pariatur qui soluta tempora. Velit, sequi architecto obcaecati laboriosam modi, quae recusandae minus atque, non corrupti nobis totam aut.</p>
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore maxime minus pariatur qui soluta tempora. Velit, sequi architecto obcaecati laboriosam modi, quae recusandae minus atque, non corrupti nobis totam aut.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Princing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iste illum voluptatem, ipsa veritatis numquam provident adipisci non quis dicta earum ex similique maxime dolore porro beatae at velit facilis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tenetur quos amet dolorum mollitia veritatis tempora animi ut sunt culpa. Quam molestiae perferendis nobis quaerat nihil impedit aliquam odit fuga!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto vero cum corporis corrupti alias quia repellendus deserunt qui repudiandae fugit dignissimos, expedita praesentium laudantium! Accusantium qui doloremque maxime recusandae provident?</p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing Table</caption>
+
+                    <thead>
+                        <tr>
+                        <th>Title 1</th>
+                        <th>Title 2</th>
+                        <th>Title 3</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>January brings us Firefox 85</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolor, rem iure aliquam molestias mollitia aliquid ab odio hic quos perspiciatis natus reprehenderit temporibus nostrum esse. Voluptates facere eius repudiandae.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript-section1.svg" alt="Homem virado para esquerda segurando a logo de CSS, uma mulher após esse homem empurrando a logo do JavaScript, após a logo do Javascript uma outra mulher segurando a logo de HTML.">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your first name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email" placeholder="Your_email@mail.com">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message..."></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Send message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a href="https://rafaelkrc.github.io/pagina_pessoal/">Feito com <span class="heart">❤</span> por Rafael Coelho</a></p>
+    </footer>
+
+    <a href="#home" class="back-to-top">➤</a>
+</body>
+</html>
